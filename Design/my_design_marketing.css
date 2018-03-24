@@ -1,15 +1,12 @@
-/*HOME PAGE*/
+/*MARKETING*/
 /*---------------------------------------------------------------------------------------*/
 /*BODY*/
 #body{
     color: grey;
     font-family: 'Montserrat Light', 'Montserrat', sans-serif;
 }
-
 /*---------------------------------------------------------------------------------------*/
 
-
-/*---------------------------------------------------------------------------------------*/
 /*NAVIGACIJA*/
 /*---------------------------------------------------------------------------------------*/
 #my_navbar{
@@ -19,7 +16,6 @@
 .my_nav {
     background-color: white;
     text-decoration: none;
-
 }
 .my_nav_a{
     color: #00CCFF;
@@ -28,7 +24,6 @@
 .my_nav_li{
     transition: 1s;
 }
-
 .my_nav_li:hover{
     background-color: #ED0076;
     color: white;
@@ -44,9 +39,7 @@
         width: 400px;
     }
 }
-
 /*---------------------------------------------------------------------------------------*/
-
 
 /*1.RED*/
 /*---------------------------------------------------------------------------------------*/
@@ -54,7 +47,6 @@
     background-image: url("Images/6.marketing/marketing_header.jpg");
     background-size: cover;
     background-position: center;
-
 }
 .row1_content{
     padding-top: 8em;
@@ -70,28 +62,19 @@
         padding-top: 12em;
     }
 }
-
 /*---------------------------------------------------------------------------------------*/
-
 
 /*2.RED*/
 /*---------------------------------------------------------------------------------------*/
-.row2{
-
-}
-
 .row2_heading{
     padding-top: 4em;
     padding-bottom: 2em;
     color: #ED0076;
 }
-
-
 .row2_content{
     padding-top: 2em;
     padding-bottom: 2em;
 }
-
 .row2_content_h3{
     color: #00CCFF;
 }
@@ -125,7 +108,6 @@
 .li_footer_a{
     color: white;
 }
-
 .li_footer_a:hover{
     color: white;
 }

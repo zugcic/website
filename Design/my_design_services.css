@@ -1,15 +1,13 @@
-/*HOME PAGE*/
+/*SERVICES*/
 /*---------------------------------------------------------------------------------------*/
 /*BODY*/
+/*---------------------------------------------------------------------------------------*/
 #body{
     color: grey;
     font-family: 'Montserrat Light', 'Montserrat', sans-serif;
 }
-
 /*---------------------------------------------------------------------------------------*/
 
-
-/*---------------------------------------------------------------------------------------*/
 /*NAVIGACIJA*/
 /*---------------------------------------------------------------------------------------*/
 #my_navbar{
@@ -19,7 +17,6 @@
 .my_nav {
     background-color: white;
     text-decoration: none;
-
 }
 .my_nav_a{
     color: #00CCFF;
@@ -28,7 +25,6 @@
 .my_nav_li{
     transition: 1s;
 }
-
 .my_nav_li:hover{
     background-color: #ED0076;
     color: white;
@@ -44,9 +40,7 @@
         width: 400px;
     }
 }
-
 /*---------------------------------------------------------------------------------------*/
-
 
 /*1.RED*/
 /*---------------------------------------------------------------------------------------*/
@@ -54,9 +48,7 @@
     background-image: url("Images/2.services/services_header.jpg");
     background-size: cover;
     background-position: center;
-
 }
-
 .row1_content{
     padding-top: 8em;
     padding-bottom: 10em;
@@ -87,7 +79,6 @@
 .row3{
     padding-bottom: 4em;
 }
-
 .row3_image{
     width: 540px;
     height: 300px;
@@ -97,14 +88,12 @@
     opacity: 0.5;
     transition: 0.5s;
 }
-
 .row3_h2{
     color: #00CCFF;
 }
 .row3_img_png{
     position: relative;
 }
-
 
 /*RESPONSIVE IMAGES*/
 @media screen and (max-width: 1200px) {

@@ -1,11 +1,11 @@
 /*HOME PAGE*/
 /*---------------------------------------------------------------------------------------*/
 /*BODY*/
+/*---------------------------------------------------------------------------------------*/
 #body{
     color: grey;
     font-family: 'Montserrat Light', 'Montserrat', sans-serif;
 }
-
 /*---------------------------------------------------------------------------------------*/
 
 /*NAVIGACIJA*/
@@ -17,7 +17,6 @@
 .my_nav {
     background-color: white;
     text-decoration: none;
-
 }
 .my_nav_a{
     color: #00CCFF;
@@ -26,7 +25,6 @@
 .my_nav_li{
     transition: 1s;
 }
-
 .my_nav_li:hover{
     background-color: #ED0076;
     color: white;
@@ -37,13 +35,12 @@
     transition: 1s;
 }
 
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 568px) { /*Kod veličine ekrana ispod 568px proširi red*/
     .my_nav_li{
         width: 400px;
     }
 }
 /*---------------------------------------------------------------------------------------*/
-
 
 /*1.RED*/
 /*---------------------------------------------------------------------------------------*/
@@ -51,15 +48,12 @@
     background-image: url("Images/1.home_page/home_page_header.jpg");
     background-size: cover;
     background-position: center;
-
 }
-
 .row1_content{
     padding-top: 8em;
     padding-bottom: 10em;
     color: white;
 }
-
 .row1_p{
     line-height: 1.6;
 }
@@ -69,7 +63,6 @@
         padding-top: 12em;
     }
 }
-
 /*---------------------------------------------------------------------------------------*/
 
 /*2.RED*/
@@ -93,16 +86,12 @@
     padding-top: 2em;
     padding-bottom: 2em;
 }
-
-
 .row3_left{
     background-image: url("Images/1.home_page/inovative.jpg");
     background-size: cover;
     background-position: center;
     padding-bottom: 4em;
 }
-
-
 .row3_right{
     background-image: url("Images/1.home_page/creative.jpg");
     background-size: cover;
@@ -119,11 +108,9 @@
     transition: 1s;
     background-color: white;
 }
-
 .row3_img_left:hover{
     background-color:  #b3ffff;
 }
-
 .row3_img_right:hover{
     background-color: #ffb3d9;
 }
@@ -134,7 +121,6 @@
         margin-bottom: 2em;
     }
 }
-
 /*---------------------------------------------------------------------------------------*/
 
 /*4.RED*/
@@ -151,8 +137,6 @@
     line-height: 1.6;
     color: grey;
 }
-
-
 /*---------------------------------------------------------------------------------------*/
 
 /*FOOTER*/
@@ -166,7 +150,6 @@
     padding-top: 10em;
     padding-bottom: 10em;
     color: white;
-
 }
 .ul_footer{
     list-style: none;
@@ -178,7 +161,6 @@
 .li_footer_a{
     color: white;
 }
-
 .li_footer_a:hover{
     color: white;
 }

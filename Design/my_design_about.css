@@ -1,12 +1,12 @@
+/*ABOUT*/
+/*---------------------------------------------------------------------------------------*/
 /*BODY*/
 /*---------------------------------------------------------------------------------------*/
 #body{
     color: grey;
     font-family: 'Montserrat Light', 'Montserrat', sans-serif;
 }
-
 /*---------------------------------------------------------------------------------------*/
-
 
 /*NAVIGACIJA*/
 /*---------------------------------------------------------------------------------------*/
@@ -17,7 +17,6 @@
 .my_nav {
     background-color: white;
     text-decoration: none;
-
 }
 .my_nav_a{
     color: #00CCFF;
@@ -26,7 +25,6 @@
 .my_nav_li{
     transition: 1s;
 }
-
 .my_nav_li:hover{
     background-color: #ED0076;
     color: white;
@@ -42,9 +40,7 @@
         width: 400px;
     }
 }
-
 /*---------------------------------------------------------------------------------------*/
-
 
 /*1.RED*/
 /*---------------------------------------------------------------------------------------*/
@@ -53,7 +49,6 @@
     background-size: cover;
     background-position: center;
 }
-
 .row1_content{
     padding-top: 8em;
     padding-bottom: 10em;
@@ -78,7 +73,6 @@
     color: #00CCFF;
     border-bottom: 0.01em #00CCFF solid;
 }
-
 .row2_content{
     padding-top: 4em;
     padding-bottom: 4em;
@@ -107,7 +101,6 @@
 .li_footer_a{
     color: white;
 }
-
 .li_footer_a:hover{
     color: white;
 }
