@@ -2,6 +2,7 @@
 /*---------------------------------------------------------------------------------------*/
 #body{
     color: grey;
+    font-family: 'Montserrat Light', 'Montserrat', sans-serif;
 }
 
 /*---------------------------------------------------------------------------------------*/
@@ -51,7 +52,6 @@
     background-image: url("Images/4.about/about_header.jpg");
     background-size: cover;
     background-position: center;
-    font-family: 'Montserrat Light', 'Montserrat', sans-serif;
 }
 
 .row1_content{
@@ -74,10 +74,6 @@
 
 /*2.RED*/
 /*---------------------------------------------------------------------------------------*/
-.row2{
-    font-family: 'Montserrat Light', 'Montserrat', sans-serif;
-}
-
 .row2_h3{
     color: #00CCFF;
     border-bottom: 0.01em #00CCFF solid;
@@ -100,7 +96,6 @@
     padding-top: 10em;
     padding-bottom: 10em;
     color: white;
-    font-family: 'Montserrat Light', 'Montserrat', sans-serif;
 }
 .ul_footer{
     list-style: none;

@@ -2,6 +2,7 @@
 /*---------------------------------------------------------------------------------------*/
 #body{
     color: grey;
+    font-family: 'Montserrat Light', 'Montserrat', sans-serif;
 }
 
 /*---------------------------------------------------------------------------------------*/
@@ -9,15 +10,20 @@
 
 /*NAVIGACIJA*/
 /*---------------------------------------------------------------------------------------*/
+#my_navbar{
+    z-index: 1;
+    position: fixed;
+}
 .my_nav {
-    color: white;
+    background-color: white;
     text-decoration: none;
+
 }
 .my_nav_a{
-    color: white;
+    color: #00CCFF;
+    transition: 1s;
 }
 .my_nav_li{
-    border-left: 0.01em solid white;
     transition: 1s;
 }
 
@@ -36,7 +42,6 @@
         width: 400px;
     }
 }
-
 /*---------------------------------------------------------------------------------------*/
 
 
@@ -46,7 +51,6 @@
     background-image: url("Images/5.web_design/webdesign_header.jpg");
     background-size: cover;
     background-position: center;
-    font-family: 'Montserrat Light', 'Montserrat', sans-serif;
 }
 
 .row1_content{
@@ -59,12 +63,18 @@
     padding-right: 5em;
     line-height: 1.6;
 }
+@media screen and (max-width: 576px){  /*Kod male veličine ekrana pomakni sadržaj dolje*/
+    .row1_content{
+        padding-top: 12em;
+    }
+}
+
 /*---------------------------------------------------------------------------------------*/
 
 /*2.RED*/
 /*---------------------------------------------------------------------------------------*/
 .row2{
-    font-family: 'Montserrat Light', 'Montserrat', sans-serif;
+
 }
 .row2_content{
     padding-top: 2em;
@@ -103,7 +113,6 @@
     padding-top: 10em;
     padding-bottom: 10em;
     color: white;
-    font-family: 'Montserrat Light', 'Montserrat', sans-serif;
 }
 .ul_footer{
     list-style: none;

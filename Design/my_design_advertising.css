@@ -12,15 +12,20 @@
 /*---------------------------------------------------------------------------------------*/
 /*NAVIGACIJA*/
 /*---------------------------------------------------------------------------------------*/
+#my_navbar{
+    z-index: 1;
+    position: fixed;
+}
 .my_nav {
-    color: white;
+    background-color: white;
     text-decoration: none;
+
 }
 .my_nav_a{
-    color: white;
+    color: #00CCFF;
+    transition: 1s;
 }
 .my_nav_li{
-    border-left: 0.01em solid white;
     transition: 1s;
 }
 
@@ -59,6 +64,12 @@
 .row1_p{
     line-height: 1.6;
 }
+@media screen and (max-width: 576px){  /*Kod male veličine ekrana pomakni sadržaj dolje*/
+    .row1_content{
+        padding-top: 12em;
+    }
+}
+
 /*---------------------------------------------------------------------------------------*/
 
 /*2.RED*/
@@ -134,7 +145,6 @@
     padding-top: 10em;
     padding-bottom: 10em;
     color: white;
-    font-family: 'Montserrat Light', 'Montserrat', sans-serif;
 }
 .ul_footer{
     list-style: none;
