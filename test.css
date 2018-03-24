@@ -1,0 +1,17 @@
+#my_navbar{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-color: #00CCFF;
+    position: fixed;
+    display: block;
+    width: 100%;
+    top: 0px;
+    color: #ED0076;
+
+}
+
+#my_p{
+    font-size: 3em;
+    display: block;
+    font-weight: bold;
+}

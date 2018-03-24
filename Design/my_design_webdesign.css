@@ -1,0 +1,127 @@
+/*BODY*/
+/*---------------------------------------------------------------------------------------*/
+#body{
+    color: grey;
+}
+
+/*---------------------------------------------------------------------------------------*/
+
+
+/*NAVIGACIJA*/
+/*---------------------------------------------------------------------------------------*/
+.my_nav {
+    color: white;
+    text-decoration: none;
+}
+.my_nav_a{
+    color: white;
+}
+.my_nav_li{
+    border-left: 0.01em solid white;
+    transition: 1s;
+}
+
+.my_nav_li:hover{
+    background-color: #ED0076;
+    color: white;
+    transition: 1s;
+}
+.my_nav_a:hover{
+    color: white;
+    transition: 1s;
+}
+
+@media screen and (max-width: 568px) {
+    .my_nav_li{
+        width: 400px;
+    }
+}
+
+/*---------------------------------------------------------------------------------------*/
+
+
+/*1.RED*/
+/*---------------------------------------------------------------------------------------*/
+.row1{
+    background-image: url("Images/5.web_design/webdesign_header.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: 'Montserrat Light', 'Montserrat', sans-serif;
+}
+
+.row1_content{
+    padding-top: 8em;
+    padding-bottom: 10em;
+    color: white;
+}
+.row1_p{
+    padding-left: 5em;
+    padding-right: 5em;
+    line-height: 1.6;
+}
+/*---------------------------------------------------------------------------------------*/
+
+/*2.RED*/
+/*---------------------------------------------------------------------------------------*/
+.row2{
+    font-family: 'Montserrat Light', 'Montserrat', sans-serif;
+}
+.row2_content{
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.row2_heading{
+    padding-top: 4em;
+    padding-bottom: 2em;
+    color: #ED0076;
+}
+.row2_content_h3{
+    color: #00CCFF;
+    border-bottom: 0.01em #00CCFF solid;
+}
+
+.ul_row2 .li_row2{
+    list-style: none;
+}
+.ul_row2 .li_row2::before{
+    color: #00CCFF;
+    content: ">>";
+    font-size: 1em;
+    padding-right: 1.1em;
+}
+/*---------------------------------------------------------------------------------------*/
+
+/*FOOTER*/
+/*---------------------------------------------------------------------------------------*/
+.my_footer{
+    background-image: url("Images/5.web_design/webdesign_footer.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.my_footer_content{
+    padding-top: 10em;
+    padding-bottom: 10em;
+    color: white;
+    font-family: 'Montserrat Light', 'Montserrat', sans-serif;
+}
+.ul_footer{
+    list-style: none;
+}
+.li_footer{
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.li_footer_a{
+    color: white;
+}
+
+.li_footer_a:hover{
+    color: white;
+}
+/*---------------------------------------------------------------------------------------*/
+
+
+
+
+

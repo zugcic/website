@@ -1,0 +1,36 @@
+.float_left{
+    float: left;
+}
+.float_right{
+    float: right;
+}
+.text_center{
+    text-align: center;
+}
+.text_justified{
+    text-align: justify;
+}
+.text_left{
+    text-align: left;
+}
+.text_right{
+    text-align: right;
+}
+.text_bold{
+    font-weight: bold;
+}
+.display_block{
+    display: block;
+}
+.display_inline{
+    display: inline;
+}
+.text_decoration_none{
+    text-decoration: none;
+}
+.position_absolute{
+    position: absolute;
+}
+.position_relative{
+    position: relative;
+}

@@ -1,0 +1,206 @@
+/*HOME PAGE*/
+/*---------------------------------------------------------------------------------------*/
+/*BODY*/
+#body{
+    color: grey;
+    font-family: 'Montserrat Light', 'Montserrat', sans-serif;
+}
+
+/*---------------------------------------------------------------------------------------*/
+
+
+/*---------------------------------------------------------------------------------------*/
+/*NAVIGACIJA*/
+/*---------------------------------------------------------------------------------------*/
+.my_nav {
+    color: white;
+    text-decoration: none;
+}
+.my_nav_a{
+    color: white;
+}
+.my_nav_li{
+    border-left: 0.01em solid white;
+    transition: 1s;
+}
+
+.my_nav_li:hover{
+    background-color: #ED0076;
+    color: white;
+    transition: 1s;
+}
+.my_nav_a:hover{
+    color: white;
+    transition: 1s;
+}
+
+@media screen and (max-width: 568px) {
+    .my_nav_li{
+        width: 400px;
+    }
+}
+
+/*---------------------------------------------------------------------------------------*/
+
+
+/*1.RED*/
+/*---------------------------------------------------------------------------------------*/
+.row1{
+    background-image: url("Images/2.services/services_header.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.row1_content{
+    padding-top: 8em;
+    padding-bottom: 10em;
+    color: white;
+}
+.row1_p{
+    line-height: 1.6;
+}
+/*---------------------------------------------------------------------------------------*/
+
+
+/*2.RED*/
+/*---------------------------------------------------------------------------------------*/
+.row2{
+    padding-top: 4em;
+    padding-bottom: 4em;
+    color: #ED0076;
+}
+/*---------------------------------------------------------------------------------------*/
+
+/*3.RED*/
+/*---------------------------------------------------------------------------------------*/
+.row3{
+    padding-bottom: 4em;
+}
+
+.row3_image{
+    width: 540px;
+    height: 300px;
+    transition: 0.5s;
+}
+.row3_image:hover{
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.row3_h2{
+    color: #00CCFF;
+}
+.row3_img_png{
+    position: relative;
+}
+
+
+/*RESPONSIVE IMAGES*/
+@media screen and (max-width: 1200px) {
+    .row3_image{
+        width: 450px;
+        height: 300px;
+        transition: 0.5s;
+    }
+}
+
+@media screen and (max-width: 997px) {
+    .row3_image{
+        width: 700px;
+        height: 400px;
+        transition: 0.5s;
+    }
+}
+
+@media screen and (max-width: 814px) {
+    .row3_image{
+        width: 600px;
+        height: 300px;
+        transition: 0.5s;
+    }
+}
+
+
+@media screen and (max-width: 776px) {
+    .row3_image{
+        width: 500px;
+        height: 300px;
+        transition: 0.5s;
+    }
+}
+
+
+@media screen and (max-width: 553px) {
+    .row3_image{
+        width: 350px;
+        height: 200px;
+        transition: 0.5s;
+    }
+
+}
+
+@media screen and (max-width: 400px){
+    .row3_image{
+        display: none;
+    }
+    .row3_h2{
+        color: white;
+        background-color: #ED0076;
+        padding-top: 0.1em;
+        padding-bottom: 0.1em;
+    }
+
+    .row3_h2:hover{
+        color:#ED0076;
+        background-color: white;
+        border: 0.01em gray solid;
+        transition: 0.5s;
+    }
+}
+/*---------------------------------------------------------------------------------------*/
+
+/*FOOTER*/
+/*---------------------------------------------------------------------------------------*/
+.my_footer{
+    background-image: url("Images/2.services/services_footer.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.my_footer_content{
+    padding-top: 10em;
+    padding-bottom: 10em;
+    color: white;
+    font-family: 'Montserrat Light', 'Montserrat', sans-serif;
+}
+.ul_footer{
+    list-style: none;
+}
+.li_footer{
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.li_footer_a{
+    color: white;
+}
+
+.li_footer_a:hover{
+    color: white;
+}
+/*---------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

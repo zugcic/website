@@ -1,0 +1,128 @@
+/*HOME PAGE*/
+/*---------------------------------------------------------------------------------------*/
+/*BODY*/
+#body{
+    color: grey;
+    font-family: 'Montserrat Light', 'Montserrat', sans-serif;
+}
+
+/*---------------------------------------------------------------------------------------*/
+
+
+/*---------------------------------------------------------------------------------------*/
+/*NAVIGACIJA*/
+/*---------------------------------------------------------------------------------------*/
+.my_nav {
+    color: white;
+    text-decoration: none;
+}
+.my_nav_a{
+    color: white;
+}
+.my_nav_li{
+    border-left: 0.01em solid white;
+    transition: 1s;
+}
+
+.my_nav_li:hover{
+    background-color: #ED0076;
+    color: white;
+    transition: 1s;
+}
+.my_nav_a:hover{
+    color: white;
+    transition: 1s;
+}
+
+@media screen and (max-width: 568px) {
+    .my_nav_li{
+        width: 400px;
+    }
+}
+
+/*---------------------------------------------------------------------------------------*/
+
+
+/*1.RED*/
+/*---------------------------------------------------------------------------------------*/
+.row1{
+    background-image: url("Images/6.marketing/marketing_header.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+.row1_content{
+    padding-top: 8em;
+    padding-bottom: 10em;
+    color: white;
+}
+.row1_p{
+    line-height: 1.6;
+}
+/*---------------------------------------------------------------------------------------*/
+
+
+/*2.RED*/
+/*---------------------------------------------------------------------------------------*/
+.row2{
+
+}
+
+.row2_heading{
+    padding-top: 4em;
+    padding-bottom: 2em;
+    color: #ED0076;
+}
+
+
+.row2_content{
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.row2_content_h3{
+    color: #00CCFF;
+}
+.row2_row_border_left{
+    border-left: #00CCFF solid;
+}
+.row2_row_border_right{
+    border-right: #00CCFF solid;
+}
+/*---------------------------------------------------------------------------------------*/
+
+/*FOOTER*/
+/*---------------------------------------------------------------------------------------*/
+.my_footer{
+    background-image: url("Images/6.marketing/marketing_footer.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.my_footer_content{
+    padding-top: 10em;
+    padding-bottom: 10em;
+    color: white;
+    font-family: 'Montserrat Light', 'Montserrat', sans-serif;
+}
+.ul_footer{
+    list-style: none;
+}
+.li_footer{
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.li_footer_a{
+    color: white;
+}
+
+.li_footer_a:hover{
+    color: white;
+}
+/*---------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
