@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99aa62b9-19a9-4d0c-a8ea-70d53676d7d2" name="Default" comment="" />
+    <list default="true" id="99aa62b9-19a9-4d0c-a8ea-70d53676d7d2" name="Default" comment="treci commit">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/home_page.html" afterPath="$PROJECT_DIR$/home_page.html" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -17,8 +21,8 @@
       <file leaf-file-name="home_page.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/home_page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="70" column="23" lean-forward="false" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
+            <state relative-caret-position="85">
+              <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -27,7 +31,7 @@
       <file leaf-file-name="my_design_hp.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Design/my_design_hp.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1105">
+            <state relative-caret-position="17">
               <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
               <folding />
             </state>
@@ -38,7 +42,7 @@
         <entry file="file://$PROJECT_DIR$/my_script.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
-              <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+              <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="7" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -103,9 +107,9 @@
         <option value="$PROJECT_DIR$/test.css" />
         <option value="$PROJECT_DIR$/services.html" />
         <option value="$PROJECT_DIR$/Design/my_design_services.css" />
-        <option value="$PROJECT_DIR$/home_page.html" />
         <option value="$PROJECT_DIR$/Design/my_design_hp.css" />
         <option value="$PROJECT_DIR$/my_script.js" />
+        <option value="$PROJECT_DIR$/home_page.html" />
       </list>
     </option>
   </component>
@@ -181,6 +185,14 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="my_script.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-js-file="my_script.js" working-dir="$PROJECT_DIR$" />
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.my_script.js" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
@@ -241,19 +253,20 @@
       <workItem from="1521825780438" duration="6261000" />
       <workItem from="1521877635998" duration="6195000" />
       <workItem from="1521900404192" duration="8448000" />
-      <workItem from="1521923898071" duration="6000" />
+      <workItem from="1521923898071" duration="800000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="231291000" />
+    <option name="totallyTimeSpent" value="232085000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22470239" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22470239" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32913387" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -261,7 +274,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39869282" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -297,6 +310,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="treci commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="treci commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -470,14 +487,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Design/my_design_hp.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -488,17 +497,25 @@
     <entry file="file://$PROJECT_DIR$/my_script.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="7" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home_page.html">
+    <entry file="file://$PROJECT_DIR$/Design/my_design_hp.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="70" column="23" lean-forward="false" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
+          <caret line="65" column="0" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
           <folding />
         </state>
       </provider>
