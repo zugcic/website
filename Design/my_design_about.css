@@ -37,7 +37,7 @@
 
 @media screen and (max-width: 568px) {
     .my_nav_li{
-        width: 400px;
+        width: 500px;
     }
 }
 /*---------------------------------------------------------------------------------------*/
@@ -50,7 +50,7 @@
     background-position: center;
 }
 .row1_content{
-    padding-top: 8em;
+    padding-top: 10em;
     padding-bottom: 10em;
     color: white;
 }
@@ -62,7 +62,15 @@
 
 @media screen and (max-width: 576px){  /*Kod male veličine ekrana pomakni sadržaj dolje*/
     .row1_content{
-        padding-top: 12em;
+        padding-top: 15em;
+        padding-bottom: 5em;
+    }
+    .my_nav_li{
+        border-left: 0.1em solid #00CCFF;
+        margin-top: 0.2em;
+    }
+    #my_navbar{
+        opacity: 0.9;
     }
 }
 /*---------------------------------------------------------------------------------------*/
