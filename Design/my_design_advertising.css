@@ -33,8 +33,7 @@
     color: white;
     transition: 1s;
 }
-
-@media screen and (max-width: 568px) { /*Kod veličine ekrana ispod 568px proširi red*/
+@media screen and (max-width: 576px){
     .my_nav_li{
         width: 500px;
     }
