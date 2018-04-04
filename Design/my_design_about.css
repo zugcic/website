@@ -13,10 +13,7 @@
 #my_navbar{
     z-index: 1;
     position: fixed;
-}
-.my_nav {
     background-color: white;
-    text-decoration: none;
 }
 .my_nav_a{
     color: #00CCFF;
@@ -38,6 +35,11 @@
 @media screen and (max-width: 576px) {
     .my_nav_li{
         width: 500px;
+        border-left: 0.1em solid #00CCFF;
+        margin-top: 0.2em;
+    }
+    #my_navbar{
+        opacity: 0.9;
     }
 }
 /*---------------------------------------------------------------------------------------*/
@@ -62,13 +64,6 @@
     .row1_content{
         padding-top: 15em;
         padding-bottom: 5em;
-    }
-    .my_nav_li{
-        border-left: 0.1em solid #00CCFF;
-        margin-top: 0.2em;
-    }
-    #my_navbar{
-        opacity: 0.9;
     }
 }
 /*---------------------------------------------------------------------------------------*/
