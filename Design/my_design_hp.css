@@ -8,41 +8,41 @@
 }
 /*---------------------------------------------------------------------------------------*/
 
-    /*NAVIGACIJA*/
-    /*---------------------------------------------------------------------------------------*/
-    #my_navbar{
-        z-index: 1;
-        position: fixed;
-        background-color: white;
-    }
-    .my_nav_a{
-        color: #00CCFF;
-        transition: 1s;
-    }
-    .my_nav_li{
-        transition: 1s;
-    }
-    .my_nav_li:hover{
-        background-color: #ED0076;
-        color: white;
-        transition: 1s;
-    }
-    .my_nav_a:hover{
-        color: white;
-        transition: 1s;
-    }
+/*NAVIGACIJA*/
+/*---------------------------------------------------------------------------------------*/
+#my_navbar{
+    z-index: 1;
+    position: fixed;
+    background-color: white;
+}
+.my_nav_a{
+    color: #00CCFF;
+    transition: 1s;
+}
+.my_nav_li{
+    transition: 1s;
+}
+.my_nav_li:hover{
+    background-color: #ED0076;
+    color: white;
+    transition: 1s;
+}
+.my_nav_a:hover{
+    color: white;
+    transition: 1s;
+}
 
-    @media screen and (max-width: 576px) {
-        .my_nav_li{
-            width: 500px;
-            border-left: 0.1em solid #00CCFF;
-            margin-top: 0.2em;
-        }
-        #my_navbar{
-            opacity: 0.9;
-        }
+@media screen and (max-width: 576px) {
+    .my_nav_li{
+        width: 500px;
+        border-left: 0.1em solid #00CCFF;
+        margin-top: 0.2em;
     }
-    /*---------------------------------------------------------------------------------------*/
+    #my_navbar{
+        opacity: 0.9;
+    }
+}
+/*---------------------------------------------------------------------------------------*/
 
 /*1.RED*/
 /*---------------------------------------------------------------------------------------*/
@@ -74,7 +74,7 @@
     padding-top: 4em;
     padding-bottom: 4em;
 }
-.row2_content_h4{
+.row2_content_h3{
     color: #00CCFF;
 }
 /*---------------------------------------------------------------------------------------*/
@@ -83,7 +83,6 @@
 /*---------------------------------------------------------------------------------------*/
 .row3_content{
     color: white;
-    position: static;
 }
 .row3_row_heading{
     padding-top: 2em;
@@ -138,7 +137,6 @@
 }
 .row4_content_p{
     line-height: 1.6;
-    color: grey;
 }
 /*---------------------------------------------------------------------------------------*/
 
