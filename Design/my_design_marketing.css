@@ -82,6 +82,9 @@
 .row2_content_h3{
     color: #00CCFF;
 }
+.row2_content_p{
+    line-height: 1.6;
+}
 .row2_row_border_left{
     border-left: #00CCFF solid;
 }
