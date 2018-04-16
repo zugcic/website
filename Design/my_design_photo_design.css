@@ -82,6 +82,9 @@
     padding-top: 2em;
     padding-bottom: 4em;
 }
+.row2_content_p{
+    line-height: 1.6;
+}
 .row2_content_h3{
     color: #00CCFF;
     border-bottom: 0.01em #00CCFF solid;
