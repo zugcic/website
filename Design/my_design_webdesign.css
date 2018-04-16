@@ -76,7 +76,7 @@
 /*---------------------------------------------------------------------------------------*/
 .row2_content{
     padding-top: 2em;
-    padding-bottom: 2em;
+    padding-bottom: 4em;
 }
 .row2_heading{
     padding-top: 4em;
@@ -86,6 +86,9 @@
 .row2_content_h3{
     color: #00CCFF;
     border-bottom: 0.01em #00CCFF solid;
+}
+.row2_content_p{
+    line-height: 1.6;
 }
 .ul_row2 .li_row2{
     list-style: none;
