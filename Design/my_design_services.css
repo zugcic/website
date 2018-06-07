@@ -85,11 +85,11 @@
 .row3_image{
     width: 540px;
     height: 300px;
-    transition: 0.5s;
+    transition: 1s;
 }
 .row3_image:hover{
     opacity: 0.5;
-    transition: 0.5s;
+    transition: 1s;
 }
 .row3_h2 {
     color: #00CCFF;
