@@ -103,28 +103,28 @@
     .row3_image{
         width: 450px;
         height: 300px;
-        transition: 0.5s;
+        transition: 1s;
     }
 }
 @media screen and (max-width: 992px) {
     .row3_image{
         width: 700px;
         height: 400px;
-        transition: 0.5s;
+        transition: 1s;
     }
 }
 @media screen and (max-width: 768px) {
     .row3_image{
         width: 500px;
         height: 250px;
-        transition: 0.5s;
+        transition: 1s;
     }
 }
 @media screen and (max-width: 576px) {
     .row3_image{
         width: 400px;
         height: 250px;
-        transition: 0.5s;
+        transition: 1s;
     }
 }
 @media screen and (max-width: 400px){
@@ -142,7 +142,7 @@
         color:#ED0076;
         background-color: white;
         border: 0.01em gray solid;
-        transition: 0.5s;
+        transition: 1s;
     }
 }
 /*---------------------------------------------------------------------------------------*/

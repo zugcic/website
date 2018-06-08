@@ -102,11 +102,11 @@
 .row3_img{
     width: 200px;
     height: 200px;
-    transition: 0.5s;
+    transition: 1s;
 }
 .row3_img:hover{
     opacity: 0.5;
-    transition: 0.5s;
+    transition: 1s;
 }
 
 /*RESPONSIVE IMAGES*/
@@ -114,21 +114,21 @@
     .row3_img{
         width: 200px;
         height: 200px;
-        transition: 0.5s;
+        transition: 1s;
     }
 }
 @media screen and (max-width: 992px) {
     .row3_img{
         width: 150px;
         height: 150px;
-        transition: 0.5s;
+        transition: 1s;
     }
 }
 @media screen and (max-width: 768px) {
     .row3_img{
         width: 100px;
         height: 100px;
-        transition: 0.5s;
+        transition: 1s;
     }
 }
 @media screen and (max-width: 576px) {
@@ -136,14 +136,14 @@
         width: 250px;
         height: 250px;
         margin-bottom: 2em;
-        transition: 0.5s;
+        transition: 1s;
     }
 }
 @media screen and (max-width: 400px) {
     .row3_img{
         width: 150px;
         height: 150px;
-        transition: 0.5s;
+        transition: 1s;
     }
 
 }

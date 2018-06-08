@@ -112,9 +112,11 @@
 }
 .row3_img_left:hover{
     background-color:  #b3ffff;
+    transition: 1s;
 }
 .row3_img_right:hover{
     background-color: #ffb3d9;
+    transition: 1s;
 }
 
 @media screen and (max-width: 576px){
